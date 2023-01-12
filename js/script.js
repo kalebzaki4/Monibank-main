@@ -1,22 +1,22 @@
 import ehUmCPF from "./valida-cpf.js";
 import ehMaiorDeIdade from "./valida-idade.js";
 const camposDoFormulario = document.querySelectorAll('[required]')
-const formulario = document.querySelector('[data-formulario]')
+const formulario = document.querySelector('[data-formulario]');
 
 formulario.addEventListener("submit", (e) => {
-    e.preventDefault()
+    e.preventDefault();
 
     const listaRespostas = {
-        "nome": e.target.elements["nome"].value, 
-        "email": e.target.elements["email"].value, 
-        "rg": e.target.elements["rg"].value, 
+        "nome": e.target.elements["nome"].value,
+        "email": e.target.elements["email"].value,
+        "rg": e.target.elements["rg"].value,
         "cpf": e.target.elements["cpf"].value,
         "aniversario": e.target.elements["aniversario"].value,
     }
 
-    localStorage.setItem("cadastro", JSON.stringify(listaRespostas))
+    localStorage.setItem("cadastro", JSON.stringify(listaRespostas));
 
-    window.location.href = './abrir-conta-form-2.html'
+    window.location.href = "./abrir-conta-form-2.html";
 })
 
 camposDoFormulario.forEach((campo) => {
@@ -25,7 +25,7 @@ camposDoFormulario.forEach((campo) => {
 })
 
 const tiposDeErro = [
-    'valueMissing', 
+    'valueMissing',
     'typeMismatch',
     'patternMismatch',
     'tooShort',
@@ -41,7 +41,7 @@ const mensagens = {
     email: {
         valueMissing: "O campo de e-mail não pode estar vazio.",
         typeMismatch: "Por favor, preencha um email válido.",
-        tooShort: "Por favor, preencha um e-mail válido."
+        tooShort: "Por favor, preencha um email válido."
     },
     rg: {
         valueMissing: "O campo de RG não pode estar vazio.",
@@ -65,6 +65,7 @@ const mensagens = {
 
 function verificaCampo(campo) {
     let mensagem = "";
+    campo.setCustomValidity('');
     if (campo.name == "cpf" && campo.value.length >= 11) {
         ehUmCPF(campo);
     }
@@ -72,16 +73,17 @@ function verificaCampo(campo) {
         ehMaiorDeIdade(campo);
     }
     tiposDeErro.forEach(erro => {
-    if (campo.validity[erro]) {
-        mensagem = mensagens[campo.name][erro]
-    }
+        if (campo.validity[erro]) {
+            mensagem = mensagens[campo.name][erro];
+            console.log(mensagem);
+        }
     })
-    const mensagemErro = campo.parentNode.querySelector('.mensagem-erro')
-    const validadorDeInput = campo.checkvalidity();
+    const mensagemErro = campo.parentNode.querySelector('.mensagem-erro');
+    const validadorDeInput = campo.checkValidity();
 
     if (!validadorDeInput) {
-        mensagemErro.textContent = mensagem
-    }else{
-        mensagemErro.textContent = ""
+        mensagemErro.textContent = mensagem;
+    } else {
+        mensagemErro.textContent = "";
     }
 }
