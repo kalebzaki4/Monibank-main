@@ -1,8 +1,8 @@
-# Monibank
+# Monibank 🏦
 
 Monibank é um projeto desenvolvido para aprimorar habilidades em criação e validação de formulários. O objetivo é criar um formulário interativo de cadastro bancário com recursos de validação de dados.
 
-## Recursos
+## Recursos 🛠️
 
 - Formulário de cadastro bancário interativo
 - Validação de campos obrigatórios
@@ -10,18 +10,18 @@ Monibank é um projeto desenvolvido para aprimorar habilidades em criação e va
 - Mensagens de erro personalizadas
 - Layout responsivo e amigável para dispositivos móveis
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas 🚀
 
 - HTML5
 - CSS3
 - JavaScript
 
-## Pré-requisitos
+## Pré-requisitos 📋
 
 - Navegador web moderno
 - Conexão de internet estável
 
-## Como Usar
+## Como Usar 📝
 
 1. Clone o repositório `Monibank-main` em sua máquina local.
 2. Navegue até a pasta do projeto.
@@ -31,19 +31,19 @@ Monibank é um projeto desenvolvido para aprimorar habilidades em criação e va
 6. Ao submeter o formulário, as validações serão aplicadas e mensagens de erro serão exibidas, se necessário.
 7. Faça os ajustes necessários e resubmeta o formulário até que todos os dados sejam válidos.
 
-## Contribuições
+## Contribuições 🤝
 
 Contribuições são bem-vindas! Se você tiver sugestões, correções de bugs ou melhorias, fique à vontade para enviar um pull request.
 
-## Licença
+## Licença 📜
 
 Este projeto está licenciado sob a [MIT License](LICENSE). Sinta-se livre para utilizar, modificar e distribuir o projeto de acordo com os termos da licença.
 
-## Contato
+## Contato 📬
 
 Para mais informações ou dúvidas, entre em contato:
 
-E-mail: seuemail@example.com
-Website: www.seusite.com
-Twitter: @seudomínio
-LinkedIn: www.linkedin.com/in/seuperfil
+- E-mail: seuemail@example.com
+- Website: www.seusite.com
+- Twitter: @seudomínio
+- LinkedIn: www.linkedin.com/in/seuperfil
