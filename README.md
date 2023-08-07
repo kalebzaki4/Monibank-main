@@ -21,29 +21,34 @@ Monibank é um projeto desenvolvido para aprimorar habilidades em criação e va
 - Navegador web moderno
 - Conexão de internet estável
 
-## Como Usar 📝
+## Como Utilizar 📝
 
-1. Clone o repositório `Monibank-main` em sua máquina local.
+1. Clone o repositório `Monibank-main` para a sua máquina local.
 2. Navegue até a pasta do projeto.
-3. Abra o arquivo `index.html` em seu navegador web.
+3. Abra o arquivo `index.html` no seu navegador web.
 4. Preencha os campos do formulário com as informações solicitadas.
-5. Certifique-se de que os campos são preenchidos corretamente conforme as instruções.
+5. Certifique-se de que os campos são preenchidos corretamente de acordo com as instruções.
 6. Ao submeter o formulário, as validações serão aplicadas e mensagens de erro serão exibidas, se necessário.
 7. Faça os ajustes necessários e resubmeta o formulário até que todos os dados sejam válidos.
 
 ## Contribuições 🤝
 
-Contribuições são bem-vindas! Se você tiver sugestões, correções de bugs ou melhorias, fique à vontade para enviar um pull request.
+Contribuições são bem-vindas! Se você tiver sugestões, correções de bugs ou melhorias, sinta-se à vontade para enviar um pull request.
 
 ## Licença 📜
 
-Este projeto está licenciado sob a [MIT License](LICENSE). Sinta-se livre para utilizar, modificar e distribuir o projeto de acordo com os termos da licença.
+Este projeto está licenciado sob a [Licença MIT](LICENSE). Sinta-se livre para usar, modificar e distribuir o projeto de acordo com os termos da licença.
+
+## Criador 👤
+
+Nome: Kalebzaki4
+Email: kalebzsantosk@gmail.com
 
 ## Contato 📬
 
 Para mais informações ou dúvidas, entre em contato:
 
-- E-mail: seuemail@example.com
+- Email: seuemail@example.com
 - Website: www.seusite.com
 - Twitter: @seudomínio
 - LinkedIn: www.linkedin.com/in/seuperfil
